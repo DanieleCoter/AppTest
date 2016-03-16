@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = right  |
+          left   |
+          home   |
+          okay   |
+          nine   ;
+
+public <digits> = <digit>+;
